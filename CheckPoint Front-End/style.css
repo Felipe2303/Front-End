@@ -1,0 +1,89 @@
+body {
+    background-image: url(fundo.jpg);
+    background-size:cover;
+    position: relative; 
+
+    
+}
+
+
+h1  {
+    font-family:Verdana,
+    text-align: center;
+    color: black;
+
+}
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: blanchedalmond;
+    height: center;
+    padding: 10px 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+div.imagem {
+	display:inline-flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+    margin: 0%;
+    float: left;
+    position:sticky;
+    width: 100%;
+    height: auto;
+    padding: auto;
+    text-align: center;
+    
+}
+
+img{width: 20%;
+  height: 20%;
+  object-fit:contain;
+  display: inline-block;
+
+
+}
+
+figcaption{
+    color: blanchedalmond;
+}
+
+
+.youtube {
+    display: block;
+    margin: auto;
+    width: 1280px;
+    margin: 2px;
+    padding-top: 0%;
+    text-align: center;
+}
+h2{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    text-align: center;
+
+}
+
+ul{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    color: blanchedalmond;
+    text-align: center;
+    position:fixed;
+
+}
+   
+
+}
+
+
+#icon {
+    text-align: center;
+    margin-top: auto;
+    border: beige;
+}
