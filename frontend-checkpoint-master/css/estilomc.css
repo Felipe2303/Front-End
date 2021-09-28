@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(243, 243, 243);
+}
+
+.header {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: red;
+  letter-spacing: 0.1rem;
+  border-bottom: 2px solid #fff;
+  padding: 20px 0;
+}
+
+.container {
+  position: relative;
+  max-width: 100vh;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-voltar {
+  padding: 20px 25px;
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.main__container-mogi {
+  background: url("/img/bg-mogi-das-cruzes.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.inform {
+  width: 70%;
+  padding: 50px 0;
+  color: #fff;
+  line-height: 1.8rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.inform_list {
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+
+.inform_list li {
+  padding-bottom: 5px;
+}
+
+.social__media {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social__media h3 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-bottom: 15px;
+  color: #fff;
+}
+
+.social__media a {
+  color: #fff;
+  padding: 0 5px;
+}
+
+.main__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 70%;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.main__form h2 {
+  font-size: 2rem;
+  margin: 25px 0 25px;
+  color: #686868;
+  border-bottom: 1px solid #3f3f3f;
+  border-radius: 5px;
+}
+
+.form__id,
+.form__contact,
+.opt__idade,
+.interesse,
+.slc__interesse,
+.objetivo {
+  color: #222222;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+input::placeholder {
+  font-size: 0.8rem;
+}
+
+.nome,
+.email,
+.tel,
+.nascimento {
+  transition: all 0.3s ease;
+}
+
+.nome:hover,
+.email:hover,
+.tel:hover,
+.nascimento:hover {
+  transform: scale(1.1);
+  outline: none;
+  border: 1px solid #0053cf;
+}
+
+.form__id,
+.form__contact {
+  margin: 5px 0;
+  padding: 5px 20px;
+}
+
+.form__id input,
+.form__contact input {
+  width: 200px;
+  height: 25px;
+  margin: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #212121;
+  padding-left: 5px;
+}
+
+.idade {
+  margin: 20px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(36, 36, 36);
+  padding: 5px 20px;
+}
+
+.opt__idade,
+.interesse,
+.slc__interesse,
+.objetivo {
+  margin-left: 20px;
+}
+
+.slc__interesse {
+  width: 250px;
+  height: 30px;
+}
+
+.objetivo {
+  padding: 20px 0;
+}
+
+.obj__input {
+  margin: 20px 0 20px 10px;
+}
+
+.obj__input:checked {
+  scale: 1.5;
+}
+
+.btn {
+  width: 200px;
+  height: 35px;
+  background: #0053cf;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background: #1370fc;
+}
+
+.main__footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0053cf;
+}
+
+.footer {
+  width: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+  color: #fff;
+}
+
+.copy {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #fff;
+}
